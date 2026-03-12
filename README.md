@@ -7,7 +7,7 @@ Burpsuite插件用于接口路径渗透测试
 ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，结合了(JsRouteScan+ChkApi+Linkfinder)等优秀项目。
 
 
-参考项目![](https://github.com/0x727/ChkApi_0x727)
+参考项目![ChkApi_0x727](https://github.com/0x727/ChkApi_0x727)
 
 ## 适用场景
 
