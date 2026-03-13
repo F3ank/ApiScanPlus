@@ -26,7 +26,7 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合
 
 工具界面展示：
 
-![image-20260313132424199](C:\Users\Admin-T\AppData\Roaming\Typora\typora-user-images\image-20260313132424199.png)
+![image-20260313132424199](https://picui.ogmua.cn/s1/2026/03/13/69b3a6300a722.webp)
 
 ![image-20260313132803084](https://picui.ogmua.cn/s1/2026/03/13/69b3a24f9a6cf.webp)
 
