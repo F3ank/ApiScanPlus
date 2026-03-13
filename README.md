@@ -1,27 +1,18 @@
 # ApiScanPlus
-Burpsuite插件用于接口路径渗透测试
+
+ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合了(JsRouteScan+ChkApi+Linkfinder)等优秀项目，主要突出API抓的全、过滤更严谨方便、测试自由度更高等特点。
+
+感谢项目：[JsRouteScan](https://github.com/F6JO/JsRouteScan)、[LinkFinder](https://github.com/GerbenJavado/LinkFinder)、[ChkApi](https://github.com/0x727/ChkApi_0x727)
 
 
-# ApiScanPlus
-
-ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，结合了(JsRouteScan+ChkApi+Linkfinder)等优秀项目。
-
-
-参考项目![ChkApi_0x727](https://github.com/0x727/ChkApi_0x727)
 
 ## 适用场景
 
-- **API 未授权与越权测试**：发现可能存在未授权访问的 API 端点，或自定义参数一键测越权。
+- **API 越权测试**：可自动抓取API或自行粘贴API到PATH，实现GET、POST、Header自定义参数，对目标进行鉴权测试。
 
-- **API 资产收集**：快速收集目标网站的所有 API
-
-- **安全测试**：作为渗透测试的信息收集阶段工具
-
-- **开发调试**：帮助开发者了解前端调用了哪些 API
+- **资产收集**：快速收集目标网站的所有 API，以及深层路由下的JS与Path。
 
   
-
-
 
 **Display界面功能介绍**
 
@@ -31,9 +22,19 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，结合了(Js
 - Scan Root Path：支持自定义主动扫描的根目录如（/api、 /system）。
 - Recursion Scan按钮：支持递归扫描，会获取UrlPath中的所有路由递归对当前网站的每一层路径进行扫描。
 
+
+
+工具界面展示：
+
+![image-20260313132424199](C:\Users\Admin-T\AppData\Roaming\Typora\typora-user-images\image-20260313132424199.png)
+
+![image-20260313132803084](https://picui.ogmua.cn/s1/2026/03/13/69b3a24f9a6cf.webp)
+
+一键检索抓取的路径数量及名称
+
 ![image-20260312160027688](https://picui.ogmua.cn/s1/2026/03/12/69b27bc5c891d.webp)
 
-显示勾选的路由数量，并以颜色区分
+可自由勾选需要扫描的路由，并以用进行颜色区分。
 
 ![image-20260312161310018](https://picui.ogmua.cn/s1/2026/03/12/69b27c20e49a1.webp)
 
@@ -47,7 +48,9 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，结合了(Js
 - GET Query Params:支持自定义GET请求中插入参数。
 - POST Body Params：支持在POST请求中添加自定义参数。
 
-![image-20260312160558492](https://picui.ogmua.cn/s1/2026/03/12/69b27c674a737.webp)
+
+
+![image-20260313133023318](https://picui.ogmua.cn/s1/2026/03/13/69b3a0c584cfd.webp)
 
 插入header参数与body参数
 
@@ -57,13 +60,13 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，结合了(Js
 
 **ScanResult界面功能介绍**
 
-- 支持状态筛选，双击状态码自动过滤，或者按钮过滤。
-- 支持路由扫描次数统计（scanned-*），双击route自动过滤与排序。
+- 支持状态筛选，双击状态码自动过滤，顶部按钮也可进行过滤。
+- 支持路由扫描次数统计（scanned-*），双击目标Route自动过滤与排序。
 - 支持目标勾选右键Scan again，方便一键特定目标重新扫描。
-- 支持导出所有扫描结果或复制路由信息。
+- 支持扫描结果复制或文件导出（CVS）。
 
 ![image-20260312162226249](https://picui.ogmua.cn/s1/2026/03/12/69b27c94ae7f7.webp)
 
-双击过滤路由，方便一键检索同一路由扫描差异。
+双击选择的路由，方便一键检索同一路由不同批次的扫描差异。
 
 ![image-20260312162956111](https://picui.ogmua.cn/s1/2026/03/12/69b27c926d8b6.webp)
