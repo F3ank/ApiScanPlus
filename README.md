@@ -11,8 +11,15 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合
 - **API 越权测试**：可自动抓取API或自行粘贴API到PATH，实现GET、POST、Header自定义参数，对目标进行鉴权测试。
 
 - **资产收集**：快速收集目标网站的所有 API，以及深层路由下的JS与Path。
-
   
+
+## 更新2.0
+1.不再依赖被动探索，现在用户可在Http History界面右键选择"Send to ApiScanPlus"将自动获取目标至插件，避免由于浏览器缓存机制导致的PATH漏报。
+2.完善内部过滤机制，Config新增自定义过滤机制功能，用户可根据正则自己完善规则。
+3.新增Diff按钮可快速筛选同类响应包。
+4.新增Pause Scan/Resume Scan按钮可暂停/恢复扫描。
+5.结果状态为405的path将自动更改发包方式（GET/POST），重新发包一次。
+
 
 **Display界面功能介绍**
 
