@@ -56,17 +56,16 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合
 
 工具界面展示：
 
-![image-20260313132424199](https://picui.ogmua.cn/s1/2026/03/13/69b3a6300a722.webp)
+![image-20260313132424199](https://github.com/user-attachments/assets/9fafdcbd-bb94-4c38-9646-802ba1d78555)
 
-![image-20260313132803084](https://picui.ogmua.cn/s1/2026/03/13/69b3a24f9a6cf.webp)
+![image-20260313132803084](https://github.com/user-attachments/assets/ecb78c3e-4189-4d29-aff5-852340904ed3)
 
 一键检索抓取的路径数量及名称
-
-![image-20260312160027688](https://picui.ogmua.cn/s1/2026/03/12/69b27bc5c891d.webp)
+![image-20260312160027688](https://github.com/user-attachments/assets/58efa79a-057f-420b-acd9-6e17e09fff66)
 
 可自由勾选需要扫描的路由，并以用进行颜色区分。
 
-![image-20260312161310018](https://picui.ogmua.cn/s1/2026/03/12/69b27c20e49a1.webp)
+![image-20260312161310018](https://github.com/user-attachments/assets/2023c662-c8b0-458d-aa70-98397459ef30)
 
 **Config界面功能介绍**
 
@@ -79,13 +78,13 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合
 - POST Body Params：支持在POST请求中添加自定义参数。
 
 
-
-![image-20260313133023318](https://picui.ogmua.cn/s1/2026/03/13/69b3a0c584cfd.webp)
+![image-20260313133023318](https://github.com/user-attachments/assets/20ee07e1-225a-4e7e-abc0-a5adb6379fd4)
 
 插入header参数与body参数
 
-![image-20260312161818617](https://picui.ogmua.cn/s1/2026/03/12/69b27c6b02575.webp)
+![image-20260312161818617](https://github.com/user-attachments/assets/01cc1455-9806-4d9e-81c7-562b6c5524b2)
 
+<img width="2364" height="723" alt="image-20260312161653004" src="https://github.com/user-attachments/assets/a492cef8-15fd-497a-9bb6-51dd9058ea20" />
 
 
 **ScanResult界面功能介绍**
@@ -95,8 +94,8 @@ ApiScanPlus为Burpsuite打造的路由抓取与渗透工具插件，借鉴结合
 - 支持目标勾选右键Scan again，方便一键特定目标重新扫描。
 - 支持扫描结果复制或文件导出（CVS）。
 
-![image-20260312162226249](https://picui.ogmua.cn/s1/2026/03/12/69b27c94ae7f7.webp)
+![image-20260312162226249](https://github.com/user-attachments/assets/b0068864-98e8-402b-8d48-9a8c1ef0a3e3)
 
 双击选择的路由，方便一键检索同一路由不同批次的扫描差异。
 
-![image-20260312162956111](https://picui.ogmua.cn/s1/2026/03/12/69b27c926d8b6.webp)
+![image-20260312162956111](https://github.com/user-attachments/assets/39527b9c-2058-4679-97fc-7e990b1ce7f7)
